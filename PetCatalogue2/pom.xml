@@ -4,7 +4,6 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.agoncal.application</groupId>
-  <artifactId>petstoreee7</artifactId>
   <version>7.0</version>
   <packaging>war</packaging>
   <name>Petstore application using Java EE 7</name>
@@ -190,4 +189,5 @@
     </repository>
   </repositories>
 
+  <artifactId>PetCatalogue</artifactId>
 </project>
