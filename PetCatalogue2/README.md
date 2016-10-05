@@ -29,6 +29,7 @@ Being Maven centric, you can compile and package it without tests using `mvn cle
 
 Launching tests under [WildFly](http://www.wildfly.org/) is straight forward. You only have to launch WidlFly and execute the tests using the Maven profile :
 
+	Wildfly 9x
     mvn clean test -Parquillian-wildfly-remote
 
 Or if you prefer the managed mode :
