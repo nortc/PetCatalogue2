@@ -39,11 +39,12 @@ public @interface Email
    Class<?>[] groups() default {};
 
    Class<? extends Payload>[] payload() default {};
-
+   
    // ======================================
    // =          Inner Annotation          =
    // ======================================
 
+   
    @Retention(RetentionPolicy.RUNTIME)
    @Target( {ElementType.METHOD, ElementType.FIELD, ElementType.PARAMETER,
          ElementType.TYPE, ElementType.ANNOTATION_TYPE,
